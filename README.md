@@ -6,7 +6,8 @@ Test your reflexes and timing as obstacles fall and the difficulty increases ove
 🔗 **Live play Preview:**  
 https://fallinglanes.vercel.app/
 
-Played preview: ![Watch the preview](https://fallinglanes.vercel.app/demoplayprev.mp4).
+View played preview:
+![Watch the preview](https://fallinglanes.vercel.app/demoplayprev.mp4).
 
 ---
 
