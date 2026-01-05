@@ -11,6 +11,7 @@ https://fallinglanes.vercel.app/
 ## ✨ Features
 
 - ⚡ Built with **Next.js** for fast performance
+- only threejs needed 
 - 🎯 Simple and intuitive gameplay
 - 📱 Responsive design (desktop & mobile)
 - 🚀 Deployed on **Vercel**
@@ -31,8 +32,8 @@ https://fallinglanes.vercel.app/
 To run the project locally:
 
 ```bash
-git clone https://github.com/your-username/falling-lanes.git
-cd falling-lanes
+git clone [https://github.com/your-username/falling-lanes.git](https://github.com/Site123456/fallinglanes.git)
+cd fallinglanes
 npm install
 npm run dev
 
