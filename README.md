@@ -3,8 +3,10 @@
 **Falling Lanes** is a simple and fast-paced browser game built with **Next.js**.  
 Test your reflexes and timing as obstacles fall and the difficulty increases over time.
 
-🔗 **Live Preview:**  
+🔗 **Live play Preview:**  
 https://fallinglanes.vercel.app/
+
+Played preview: ![Watch the preview]([https://your-video-url.mp4](https://fallinglanes.vercel.app/demoplayprev.mp4).
 
 ---
 
