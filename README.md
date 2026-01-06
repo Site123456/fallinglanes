@@ -14,10 +14,11 @@ View played preview:
 ## ✨ Features
 
 - ⚡ Built with **Next.js** for fast performance
-- only threejs needed 
+- Only threejs needed 
 - 🎯 Simple and intuitive gameplay
 - 📱 Responsive design (desktop & mobile)
 - 🚀 Deployed on **Vercel**
+- supports esc key and left right movements with keys or swipe
 
 ---
 
@@ -26,7 +27,7 @@ View played preview:
 - **Next.js**
 - **React**
 - **TypeScript**
-- **CSS / Tailwind (if applicable)**
+- **CSS / Tailwind**
 
 ---
 
