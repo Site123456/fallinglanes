@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState, CSSProperties } from "react";
 import * as THREE from "three";
-import { Pause, MoveHorizontal } from "lucide-react";
 
 type Obstacle = {
   mesh: THREE.Mesh;
@@ -713,20 +712,6 @@ export default function Page() {
       <div style={hudStyle}>
         <div
           style={{
-            display: "flex",
-            alignItems: "center",
-            gap: 6,
-            padding: "3px 8px",
-            borderRadius: 999,
-            border: `1px solid ${laneAccent}66`,
-            background:
-              "linear-gradient(135deg,rgba(255,255,255,0.08),rgba(5,10,18,0.95))",
-          }}
-        >
-          <MoveHorizontal size={13} color={laneAccent} />
-        </div>
-        <div
-          style={{
             fontFamily: "monospace",
             fontSize: 16,
             color: "#e6ffff",
@@ -744,30 +729,6 @@ export default function Page() {
         >
           TOP {topScore.toString().padStart(4, "0")}
         </div>
-        <button
-          onClick={() => {
-            const g = gameRef.current;
-            if (!g || !g.running || g.gameOver) return;
-            g.paused = !g.paused;
-            setIsPaused(g.paused);
-            if (!g.paused) {
-              g.lastTime = performance.now();
-            }
-          }}
-          style={{
-            width: 24,
-            height: 24,
-            borderRadius: "50%",
-            border: "1px solid rgba(255,255,255,0.35)",
-            background: "rgba(0,0,0,0.5)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            cursor: "pointer",
-          }}
-        >
-          <Pause size={12} color="#ffffff" />
-        </button>
       </div>
 
       {/* Start / game over overlay */}
